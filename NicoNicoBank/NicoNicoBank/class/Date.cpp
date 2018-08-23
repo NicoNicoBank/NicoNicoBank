@@ -1,53 +1,6 @@
-#include "stdafx.h"
 #include "Date.h"
 
 
-Date Date::operator+(int day)
-{
-	Date temp(*this);
-	if (day < 0) { //考虑到date + -50这种情况，直接调用date - 50的函数
-		day = -day;
-		return temp - day;
-	}
-	temp._day += day;
-	while (temp._day > GetDaysInMonth(temp._year, temp._month)) {
-		temp._day -= GetDaysInMonth(temp._year, temp._month);
-		if (temp._month == 12) {
-			temp._year++;
-			temp._month = 1;
-		}
-		else {
-			temp._month++;
-		}
-	}
-	return temp;
-}
-Date& Date::operator++()//前置++形如++a
-{
-	return (*this = *this + 1);
-}
-
-Date Date::operator++(int)//后置++形如a++
-{
-	Date temp(*this);
-	*this = *this + 1;
-	return temp;
-}int Date::operator-(const Date& date)
-{
-	Date maxDate(*this);
-	Date minDate(date);
-	if (maxDate < minDate) {
-		maxDate = date;
-		minDate = *this;
-	}
-	int days = 0;
-	while (1) {
-		if (minDate + days == maxDate)
-			break;
-		days++;
-	}
-	return days;
-}
 ostream& operator<<(ostream& _cout, const Date& date)
 {
 	_cout << date._year << "/" << date._month << "/" << date._day;

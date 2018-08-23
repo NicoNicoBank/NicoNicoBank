@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "User.h"
 #include "sqlite3.h"
 

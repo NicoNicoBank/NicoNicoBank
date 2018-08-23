@@ -183,6 +183,14 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="class\CurrentDeposit.h" />
+    <ClInclude Include="class\Date.h" />
+    <ClInclude Include="class\Deposit.h" />
+    <ClInclude Include="class\FixedDeposit.h" />
+    <ClInclude Include="class\Staff.h" />
+    <ClInclude Include="class\User.h" />
+    <ClInclude Include="database\sqlite3.h" />
+    <ClInclude Include="database\sqlite3ext.h" />
     <ClInclude Include="NicoNicoBank.h" />
     <ClInclude Include="NicoNicoBankDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -190,6 +198,14 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="class\CurrentDeposit.cpp" />
+    <ClCompile Include="class\Date.cpp" />
+    <ClCompile Include="class\Deposit.cpp" />
+    <ClCompile Include="class\FixedDeposit.cpp" />
+    <ClCompile Include="class\Staff.cpp" />
+    <ClCompile Include="class\User.cpp" />
+    <ClCompile Include="database\shell.c" />
+    <ClCompile Include="database\sqlite3.c" />
     <ClCompile Include="NicoNicoBank.cpp" />
     <ClCompile Include="NicoNicoBankDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -203,6 +219,9 @@
     <ResourceCompile Include="NicoNicoBank.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="database\bank" />
+    <None Include="database\sqlite3.def" />
+    <None Include="database\sqlite3.dll" />
     <None Include="res\NicoNicoBank.rc2" />
   </ItemGroup>
   <ItemGroup>

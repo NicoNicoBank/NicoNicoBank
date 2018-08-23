@@ -30,6 +30,30 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="class\CurrentDeposit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\Date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\Deposit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\FixedDeposit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\Staff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class\User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqlite3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="database\sqlite3ext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NicoNicoBank.cpp">
@@ -39,6 +63,30 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\CurrentDeposit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Date.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Deposit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\FixedDeposit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Staff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="database\shell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="database\sqlite3.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,6 +99,11 @@
     <None Include="res\NicoNicoBank.rc2">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="database\bank" />
+    <None Include="database\sqlite3.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="database\sqlite3.dll" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\NicoNicoBank.ico">

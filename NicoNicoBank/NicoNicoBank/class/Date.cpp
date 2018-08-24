@@ -164,5 +164,31 @@ bool  Date::operator<=(const Date& date)
 		return true;
 }
 
+void Date::setDate(int year, int month, int day)//0-year
+{
+	this->_year = year;
+	this->_month = month;
+	this->_day = day;
+}
+
+/*
+123123
+*/
+int Date::get(int type)
+{
+	switch (type)
+	{
+	case 0:
+		return _year;
+	case 1:
+		return _month;
+	case 2: 
+		return _day;
+	default:
+		return NULL;
+	}
+	return 0;
+}
+
 
 

@@ -189,6 +189,7 @@
     <ClInclude Include="class\Date.h" />
     <ClInclude Include="class\Deposit.h" />
     <ClInclude Include="class\FixedDeposit.h" />
+    <ClInclude Include="class\Func.h" />
     <ClInclude Include="class\Staff.h" />
     <ClInclude Include="class\User.h" />
     <ClInclude Include="database\sqlite3.h" />
@@ -204,6 +205,7 @@
     <ClCompile Include="class\Date.cpp" />
     <ClCompile Include="class\Deposit.cpp" />
     <ClCompile Include="class\FixedDeposit.cpp" />
+    <ClCompile Include="class\Func.cpp" />
     <ClCompile Include="class\Staff.cpp" />
     <ClCompile Include="class\User.cpp" />
     <ClCompile Include="database\shell.c" />

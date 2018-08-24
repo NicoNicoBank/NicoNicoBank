@@ -9,7 +9,18 @@ class User
 public:
 	User();
 	~User();
+	/*
+	Date类初始化不能小于0，会变成错误数值
+	*/
+	User(string account, string userName, string password, string address, string IDNumber, Date openDate, bool isLost, Date lostDate, int id);
+	/*
+	根据当前id值读取所有该id值下的user表中的数据
+	*/
 	bool sqlread();
+	/*
+	将当前类中数据写入数据库, id存在则为更新，id为-1则表示更新
+	*/
+	bool sqlwrite();
 private:
 	int id;  //唯一标识
 	string account; // 账号

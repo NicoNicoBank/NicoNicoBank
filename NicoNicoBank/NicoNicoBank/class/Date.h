@@ -21,6 +21,12 @@ public:
 	bool operator!=(const Date& date);
 	bool operator>=(const Date& date);
 	bool operator<=(const Date& date);
+	void setDate(int year, int month, int day);
+	/*
+	获取相关值
+	type:0-year, 1-month, 2-day
+	*/
+	int get(int type);
 private:
 	bool IsLeapYear(int year)
 	{

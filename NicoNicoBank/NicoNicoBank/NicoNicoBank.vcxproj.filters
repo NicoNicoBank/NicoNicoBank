@@ -54,6 +54,9 @@
     <ClInclude Include="database\sqlite3ext.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="class\Func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NicoNicoBank.cpp">
@@ -87,6 +90,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="database\sqlite3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

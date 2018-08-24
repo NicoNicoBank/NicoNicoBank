@@ -16,11 +16,11 @@ public:
 	/*
 	根据当前id值读取所有该id值下的user表中的数据
 	*/
-	bool sqlread();
+	bool read();
 	/*
 	将当前类中数据写入数据库, id存在则为更新，id为-1则表示更新
 	*/
-	bool sqlwrite();
+	bool save();
 private:
 	int id;  //唯一标识
 	string account; // 账号

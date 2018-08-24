@@ -23,7 +23,7 @@ User::User(string account, string userName, string password, string address, str
 	this->lostDate = lostDate;
 }
 
-bool User::sqlread()
+bool User::read()
 {	
 	sqlite3 * conn = NULL;
 	char * err_msg = NULL;
@@ -69,11 +69,11 @@ bool User::sqlread()
 	return true;
 }
 
-bool User::sqlwrite()
+bool User::save()
 {	
 	string sql = "";
 	bool flag = false;
-	if (sqlread() && id != -1) {
+	if (read() && id != -1) {
 		flag = true;
 		sql = "update user set account = ?,userName = ?,password = ?,address = ?,IDNumber = ?,openDate_year = ?,openDate_month = ?,openDate_day = ?,isLost = ?,lostDate_year = ?,lostDate_month = ?,lostDate_day = ? where id = ?;";
 	}

@@ -195,7 +195,6 @@
     <ClInclude Include="class\Func.h" />
     <ClInclude Include="class\Staff.h" />
     <ClInclude Include="class\User.h" />
-    <ClInclude Include="CUsersDlg.h" />
     <ClInclude Include="database\sqlite3.h" />
     <ClInclude Include="database\sqlite3ext.h" />
     <ClInclude Include="NicoNicoBank.h" />
@@ -203,8 +202,6 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="Usersinfocheck2Dlg.h" />
-    <ClInclude Include="UsersinfocheckDlg.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CaddacinfoDlg.cpp" />
@@ -216,7 +213,6 @@
     <ClCompile Include="class\Func.cpp" />
     <ClCompile Include="class\Staff.cpp" />
     <ClCompile Include="class\User.cpp" />
-    <ClCompile Include="CUsersDlg.cpp" />
     <ClCompile Include="database\shell.c" />
     <ClCompile Include="database\sqlite3.c" />
     <ClCompile Include="NicoNicoBank.cpp" />
@@ -227,8 +223,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Usersinfocheck2Dlg.cpp" />
-    <ClCompile Include="UsersinfocheckDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="NicoNicoBank.rc" />

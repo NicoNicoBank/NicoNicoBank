@@ -57,19 +57,10 @@
     <ClInclude Include="class\Func.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CUsersDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CCheckinfo.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="UsersinfocheckDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CaddacinfoDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Usersinfocheck2Dlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -110,19 +101,10 @@
     <ClCompile Include="class\Func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CUsersDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CCheckinfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="UsersinfocheckDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CaddacinfoDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Usersinfocheck2Dlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
